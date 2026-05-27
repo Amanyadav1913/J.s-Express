@@ -1,0 +1,40 @@
+// if 
+const temprature = 55;
+
+if(temprature > 30){
+    // console.log('It is a hot day');
+}else { 
+    // console.log('Beautiful day');
+}
+
+// console.log('Enjoy your day'); 
+
+//   <, > ,<=, >=, ==, != , ===, !==
+
+const score = 200;
+if(score >= 90){
+    let power = "flying";
+    // console.log(`You have a power of ${power}`);
+}
+
+// console.log(`You have a power of ${power}`);    // ReferenceError: power is not defined
+
+const balance = 100;
+
+if(balance > 500){
+    // console.log('You are rich')
+} else if(balance > 100){
+    // console.log('You are middle class');
+}
+else {
+    // console.log('You are poor');
+}
+
+const loggedInfromGoogle = false;
+const loggedInfromFacebook = true;
+
+if(loggedInfromGoogle || loggedInfromFacebook){
+    // console.log('You are logged in');
+}else {
+    // console.log('You are not logged in');
+}
