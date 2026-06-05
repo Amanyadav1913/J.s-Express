@@ -1,0 +1,109 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai aur code</title>
+</head>
+<body  style="background-color: #212121 ; color:#ffffff">
+    
+</body>
+<script> -->
+
+
+//     const div = document.createElement('div')
+//     console.log(div);
+//     div.className ="main"
+//     div.id = "box"
+//     div.setAttribute("title", "generated title")
+//     div.style.backgroundColor= "white"
+//     div.style.color = "black"
+//     div.style.padding = "20px"
+//     div.style.fontSize ="61px"
+     
+     
+//  const addText = document.createTextNode("PIYUSH YADAV")
+//     div.appendChild(addText)
+//  document.body.appendChild(div)
+
+
+//    ----- Second example -----
+
+// const order = document.createElement("ul")
+// order.style.backgroundColor ="red"
+// order.style.color ="yellow"
+
+// const li1 = document.createElement("li");
+// li1.innerText ="HTML";
+
+// const li2 = document.createElement("li");
+// li2.innerText ="CSS"
+
+// const li3 = document.createElement("li");
+// li3.innerText ="JavaScript"
+
+// order.appendChild(li1);
+// order.appendChild(li2);
+// order.appendChild(li3);
+
+// document.body.appendChild(order)
+
+//  ----- 3rd Example ----- 
+
+
+// const button =document.createElement("button")
+// button.innerText = "click me!"
+// button.style.backgroundColor ="green";
+// button.style.color ="yellow";
+// button.style.padding = "15px"
+// button.style.width= "102px"
+// button.style.fontSize ="15px"
+
+
+// document.body.appendChild(button)
+
+
+
+//  ----- 4th ----- 
+
+// const div = document.createElement("div")
+
+// const h1 =document.createElement("h1");
+// h1.innerText = "Wel-Come";
+
+// const p = document.createElement("p")
+// p.innerText ="I am learning DOM.";
+
+// div.appendChild(h1);
+// div.appendChild(p);
+
+// document.body.appendChild(div)
+
+
+//----   5th   -----  
+
+
+// const div = document.createElement("div");
+// div.className="cart";
+
+// const heading = document.createElement("h2");
+// heading.innerText= "Aman yadav";
+
+// const p = document.createElement("p");
+// p.innerText ="B.TECH Student";
+
+// const button = document.createElement("button");
+// button.innerText ="Follow";
+
+// // div.style.backgroundColor ="yellow"
+
+// div.appendChild(heading);
+// div.appendChild(p);
+// div.appendChild(button);
+
+// document.body.appendChild(div)
+
+
+    <!-- </script>   -->
+
+<!-- </html> -->
