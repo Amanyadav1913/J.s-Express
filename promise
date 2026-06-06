@@ -1,0 +1,99 @@
+<!-- <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Promise</title>
+  </head>
+  <body style="background-color: #212121; color: #e8e6e6"></body>
+  <script> -->
+    //  const promiseOne = new Promise(function (resolve, reject){
+    //     // Do an async task
+    //     // DB calls, cryptography, network
+
+    //     setTimeout(function(){
+    //         console.log('Async task is complete');
+    //         resolve();
+    //     },2000)
+    //  })
+
+    //   promiseOne.then(function(){
+    //     console.log("promise consumed")
+    //   })
+
+    //               ----second method----
+
+    //    new Promise(function(resolve, reject){
+    //     setTimeout(function(){
+    //         console.log('Async task complete');
+    //         resolve();
+    //     },1000)
+    //    }).then(function(){
+    //     console.log("Async 2 is consumed")
+    //    })
+
+    //            ----third method----
+
+    //    const promiseThree = new Promise(function(resolve, reject){
+    //     setTimeout(function(){
+    //         resolve({username: 'Aman', email:'aman@example.com'})
+    //     },2000)
+
+    //    })
+    //     promiseThree.then(function(user){
+    //         console.log(user);
+    //     })
+
+    //    ---- 4th method ----
+
+//     const promiseFour = new Promise(function (resolve, reject) {
+//       setTimeout(function () {
+//         let error = true;
+//         if (!error) {
+//           resolve({ username: "Aman", password: "1234" });
+//         } else {
+//           reject("ERROR: Something went wrong");
+//         }
+//       }, 2000);
+//     });
+
+//     promiseFour
+//       .then((user) => {
+//         console.log(user);
+//         return user.username;
+//       })
+//       .then((username) => {
+//         console.log(username);
+//       })
+//       .catch((error) => {
+//         console.log(error);
+//       })
+//       .finally(() => {
+//         console.log("Promise is either resolved or rejected");
+//       });
+
+//     //    ---- 5th method ----
+
+//     const promiseFive = new Promise(function (resolve, reject) {
+//       setTimeout(function () {
+//         let error = false;
+//         if (!error) {
+//           resolve({ username: "JavaScript", password: "1234" });
+//         } else {
+//           reject("ERROR:  Js went wrong");
+//         }
+//       }, 2000);
+//     });
+
+//     async function consumePromiseFive() {
+//       try {
+//         const response = await promiseFive;
+//         console.log(response);
+//       } catch (error) {
+//         console.log(error);
+//       }
+//     }
+
+//     consumePromiseFive();
+//   </script>
+// </html>
