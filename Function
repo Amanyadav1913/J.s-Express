@@ -1,0 +1,72 @@
+function sayMyName(){
+    console.log("A");
+    console.log("M");
+    console.log("A");
+    console.log("N");
+
+}
+
+// sayMyName();
+
+function addTwoNumbers(number1, number2){
+
+    console.log(number1 + number2);
+
+}
+
+// addTwoNumbers(3, 4);
+// const result = addTwoNumbers(5, 6);
+// console.log(result);               // This will print undefined because the function does not return anything.
+
+function addTwoNumbers(number1, number2){
+    // let result = (number1 + number2);
+    //     return result;
+
+    return number1 + number2;
+}
+const result =addTwoNumbers(5, 6);
+// console.log(result);                // This will print 11 because the function now returns the sum of the two numbers.
+
+function loggedInUserMessage(loggedInUser){
+    return `${loggedInUser} is logged in.`;
+}
+
+//  console.log(loggedInUserMessage("Aman"));
+
+function loggedInUserMessage(loggedInUser){
+    if(loggedInUser === undefined){
+        console.log("No user is logged in.");
+        return;
+    }
+    return `${loggedInUser} is logged in.`;
+}
+
+// console.log(loggedInUserMessage( "Aman"));
+// console.log(loggedInUserMessage());
+
+function calculateCartPrice(...num1){
+    return num1
+}
+
+// console.log(calculateCartPrice(100, 200,3200,5000));
+
+// -----> object as parameter <-----
+
+const user = {
+    name: "Aman",
+    age: 25,
+}
+function printUserDetails(name, age){
+    console.log(`User name is ${name}, age is ${age}`);   
+}
+// printUserDetails(user.name, user.age);
+
+// array as parameter
+
+const myNewArray = [100, 202, 304, 404, 504];
+
+function printArrayElements(getArray){
+    return getArray[2];
+}
+
+// console.log(printArrayElements(myNewArray));
