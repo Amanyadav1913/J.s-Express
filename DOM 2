@@ -1,0 +1,46 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai aur code</title>
+</head>
+<body style="background-color: #212121 ; color:#ffffff">
+
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+
+</body>
+<script>
+    function addLanguage(langName){
+        const li = document.createElement('li');
+        li.innerHTML =`${langName}`
+        document.querySelector('.language').appendChild(li)
+    }
+
+    addLanguage("HTML");
+    addLanguage("CSS");
+    addLanguage("mojo") -->
+
+    // Edit 
+ 
+    const secondLang =document.querySelector("li:nth-child(2)")
+    // secondLang.innerHTML ="Mojo"
+
+    // const newli = document.createElement('li')
+    // newli.textContent = "Java"
+    // secondLang.replacWith(newli)
+
+    // edit
+
+    const firstLang = document.querySelector("li:first-child")     // element ko replace karta hai
+    // firstLang.outerHTML = '<li>TypeScript</li>'
+
+    // remove
+
+    const lastlang =document.querySelector("li:last-child")       // element ko remove karta hai
+    // lastlang.remove()  
+<!-- 
+</script>
+</html> -->
