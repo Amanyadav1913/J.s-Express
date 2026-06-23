@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> counter app</title>
+</head>
+<body style="background-color: black; color: azure;">
+
+    <h1 id="h1">Counter app</h1>
+
+    <p id="count">0</p>
+
+     <button id="increase">Like</button>
+     <button id="decrease">dis-lik</button>
+     <button id="reset">Clear</button>  
+</body>
+<script>
+    let increasebtn = document.querySelector('#increase');
+    let decreasebtn = document.querySelector('#decrease');
+    let resetbtn = document.querySelector('#reset');
+    let countNum= document.querySelector('#count');
+    
+     
+        
+    let count = 0;
+
+     function updateCount(){
+        countNum.innerText = count;
+     }
+
+     increasebtn.addEventListener("click", function(){
+        count++;
+        updateCount();
+     });
+     decreasebtn.addEventListener("click", function(){
+        count--;
+        updateCount();
+     });
+    resetbtn.addEventListener("click", function(){
+        count = 0;
+        updateCount();
+     });
+                    
+
+    
+
+</script>
+</html>
